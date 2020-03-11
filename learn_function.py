@@ -8,6 +8,7 @@ def salam():
 
 # Menggunakan/memanggil function
 salam()
+salam() # memanggil berkali-kali
 
 # Membuat function dilengkapi argumen/parameter
 def perkenalan(nama):
