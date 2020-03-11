@@ -1,16 +1,20 @@
+# Deklarasi Stack
+books = ["Harry Potter", "Doraemon", "Tempo"]
 
-class Stack:
-    def __init__(self):
-        self.items = []
+# Menambah item baru
+books.append("Kamus Indonesia-Inggris")
 
-    def isEmpty(self):
-        return self.items == []
+# Menghapus elemen di indeks terakhir
+books.pop()
 
-    def push(self, item):
-        self.item.appen(item)
+# Menghapus elemen di indeks tertentu
+books.pop(1)
 
-    def pop(self):
-        return self.items.pop()
+# Menghapus elemen tertentu berdasarkan nilai
+books.remove("Harry Potter")
 
-    def size(self):
-        return len(self.items)
+# Menghapus seluruh elemen
+books.clear()
+
+# Menghitung banyak elemen
+print(len(books))
