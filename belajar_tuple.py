@@ -34,8 +34,13 @@ mahasiswa = mahasiswa + ("Ani", 20, False)
 # Mengakses elemen tuple
 print(mahasiswa[0])
 
-# Slicing pada tuple
-print(mahasiswa[1:3])
+angka = (1, 2, 3, 4, 5)
+
+# Slicing yang menghasilkan satu elemen
+print(angka[3:4]) # outputnya dalam bentuk tuple satu elemen
+
+# Slicing yang menghasilkan lebih dari satu elemen
+print(angka[2:4])
 
 # Menukar nilai variable
 x = 1
