@@ -1,5 +1,5 @@
 # ========
-# REKURSIF
+# REKURSI
 # ========
 
 # Contoh Perulangan
